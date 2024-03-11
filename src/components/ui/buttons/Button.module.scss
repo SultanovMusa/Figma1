@@ -1,0 +1,57 @@
+.button {
+	padding: 16px 35px;
+
+	background: transparent;
+	outline: none;
+	border: none;
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	&.bg {
+		color: #343045;
+		border-radius: 40px;
+		background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+		@media (max-width: 390px) {
+			width: 292px;
+			height: 52px;
+			flex-shrink: 0;
+		}
+	}
+
+	&.no_bg {
+		border-radius: 40px;
+		border: 2px solid #fff;
+		@media (max-width: 390px) {
+			width: 292px;
+			height: 52px;
+			flex-shrink: 0;
+		}
+	}
+	&.button22 {
+		margin-left: 48px;
+		margin-top: 15px;
+		@media (max-width: 390px) {
+			width: 292px;
+			height: 52px;
+			flex-shrink: 0;
+		}
+	}
+	&.buttonsection {
+		width: 214px;
+		height: 48px;
+		flex-shrink: 0;
+		@media (max-width: 390px) {
+			width: 292px;
+			height: 52px;
+			flex-shrink: 0;
+		}
+	}
+	@media (max-width: 390px) {
+		width: 292px;
+		height: 52px;
+		flex-shrink: 0;
+	}
+}

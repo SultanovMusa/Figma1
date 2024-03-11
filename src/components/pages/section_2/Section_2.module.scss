@@ -1,0 +1,316 @@
+section {
+	width: 100%;
+	@media (max-width: 1100px) {
+		width: 100%;
+		max-width: 1100px;
+		margin: 0;
+		padding: 10px;
+	}
+	@media (max-width: 785px) {
+		width: 100%;
+		max-width: 785px;
+		padding: 10px;
+		margin: 0;
+	}
+	@media (max-width: 600px) {
+		width: 100%;
+		max-width: 600px;
+		padding: 0;
+		margin: 0;
+	}
+	@media (max-width: 500px) {
+		width: 100%;
+		max-width: 500px;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	@media (max-width: 390px) {
+		width: 100%;
+		max-width: 390px;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		padding: 5px;
+	}
+	.containersection2 {
+		padding-block: 35px;
+		padding-inline: 110px;
+		min-width: 1272px;
+		// width: 1272px;
+		height: 756px;
+		flex-shrink: 0;
+		position: relative;
+		bottom: 1190px;
+		@media (max-width: 500px) {
+			margin: 0;
+			padding: 0;
+		}
+		@media (max-width: 390px) {
+			margin: 0;
+			padding: 0;
+			position: relative;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			@media (max-width: 390px) {
+				width: 390px;
+				
+			}
+			.content_1 {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				@media (max-width: 390px) {
+					display: flex;
+					flex-direction: column;
+					width: 390px;
+				}
+				// align-items: center;
+				.text1 {
+					display: flex;
+					flex-direction: column;
+					@media (max-width: 390px) {
+						display: flex;
+						padding-right: 15px;
+						margin-bottom: 30px;
+						margin-top: 15px;
+					}
+					p {
+						color: #fff;
+						font-size: 36px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						margin: 10px;
+						@media (max-width: 390px) {
+							color: #fff;
+							text-align: center;
+							font-size: 26px;
+							font-style: normal;
+							font-weight: 700;
+							line-height: normal;
+						}
+					}
+					span {
+						color: #fff;
+						font-size: 36px;
+						font-style: normal;
+						font-weight: 300;
+						line-height: normal;
+						margin-left: 5px;
+						@media (max-width: 390px) {
+							color: #fff;
+							text-align: center;
+							font-size: 26px;
+							font-style: normal;
+							font-weight: 300;
+							line-height: normal;
+						}
+					}
+					img {
+						position: relative;
+						left: 290px;
+						bottom: 90px;
+						@media (max-width: 500px) {
+							display: none;
+						}
+					}
+				}
+				.text2 {
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: column;
+					gap: 8px;
+					@media (max-width: 390px) {
+						width: 345px;
+						// padding-bottom: 5px;
+						padding-left: 25px;
+					}
+					p {
+						color: #fff;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+			}
+			.content_2 {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				@media (max-width: 500px) {
+					width: 500px;
+					margin: 0;
+					padding: 0;
+				}
+				@media (max-width: 390px) {
+					width: 390px;
+					margin: 0;
+					padding: 0;
+					display: flex;
+					flex-direction: column;
+				}
+				.foto {
+					@media (max-width: 390px) {
+						display: flex;
+						justify-content: center;
+					}
+					.photo22 {
+						@media (max-width: 390px) {
+							width: 335.93px;
+							height: auto;
+							flex-shrink: 0;
+						}
+					}
+				}
+				.text3 {
+					@media (max-width: 390px) {
+						width: 390px;
+						padding: 0;
+						margin: 0;
+						display: flex;
+						flex-direction: column;
+					}
+					display: flex;
+					flex-direction: column;
+					flex-wrap: wrap;
+					.textP {
+						position: relative;
+						top: 50px;
+						color: #fff;
+						font-size: 36px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						@media (max-width: 390px) {
+							position: relative;
+							top: 0;
+							bottom: 0;
+							left: 0;
+							right: 0;
+							@media (max-width: 390px) {
+								display: none;
+							}
+						}
+					}
+					.textP2 {
+						color: rgba(255, 255, 255, 0.95);
+						font-size: 36px;
+						font-style: normal;
+						font-weight: 300;
+						line-height: normal;
+						margin-top: 62px;
+						@media (max-width: 390px) {
+							display: none;
+						}
+					}
+					div {
+						padding-bottom: 75px;
+						@media (max-width: 390px) {
+							display: none;
+						}
+						@media (max-width: 390px) {
+							padding: 0;
+							margin: 0;
+							width: 285px;
+						}
+						p {
+							position: relative;
+							top: 45px;
+							margin-block: 6px;
+							color: #fff;
+							font-size: 16px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+							@media (max-width: 390px) {
+								color: #fff;
+								font-size: 12px;
+								font-style: normal;
+								font-weight: 400;
+								line-height: normal;
+								margin: 0;
+								position: relative;
+								top: 0;
+								bottom: 0;
+								left: 0;
+								right: 0;
+							}
+						}
+					}
+					.buttonsClass {
+						display: flex;
+						justify-content: center;
+					}
+				}
+			}
+			.content_3 {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				@media (max-width: 500px) {
+					display: none;
+				}
+				.text4 {
+					display: flex;
+					flex-direction: column;
+					flex-wrap: wrap;
+					margin-top: 100px;
+					div {
+						margin-bottom: 10px;
+						p {
+							color: #fff;
+							font-size: 36px;
+							font-style: normal;
+							font-weight: 700;
+							line-height: normal;
+						}
+					}
+					span {
+						color: #fff;
+						font-size: 36px;
+						font-style: normal;
+						font-weight: 300;
+						line-height: normal;
+					}
+					img {
+						position: relative;
+						left: 285px;
+						bottom: 79px;
+						@media (max-width: 390px) {
+							position: relative;
+							top: 0;
+							bottom: 0;
+							left: 0;
+							right: 0;
+						}
+					}
+				}
+				.text5 {
+					display: flex;
+					flex-direction: column;
+					flex-wrap: wrap;
+					margin-top: 80px;
+					p {
+						color: #fff;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+						margin: 5px;
+					}
+				}
+			}
+		}
+	}
+}
